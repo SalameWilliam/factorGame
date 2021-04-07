@@ -1,4 +1,3 @@
-
 public class secretNumbersTest {
 
     public static final String ANSI_RESET = "\u001B[0m";

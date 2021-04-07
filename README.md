@@ -1,6 +1,7 @@
 # factorGame
 
 Quick game about searching a number divisible by randomly chosen secret numbers.
+Needs to be compiled first before running obviously.
 
 ## java secretNumbers [n [f c]] 
 

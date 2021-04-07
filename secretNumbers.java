@@ -98,10 +98,10 @@ public class secretNumbers {
                 
                 try {
                 int numberEntered = Integer.parseInt(scanner.nextLine());        
-                int result = (numberEntered > 0) ? sNumbers.tryNumbers(numberEntered) : 0;
+                int result = sNumbers.tryNumbers(numberEntered);
                 
                 //If we get every secret number we win the game !
-                if(result == 3){
+                if(result == numCount){
                     System.out.println("You won !");
                     System.out.println(congratulations[randomInt(0, congratulations.length -1)]);
                     break;
